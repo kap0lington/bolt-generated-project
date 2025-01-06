@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --deep-purple-900: #1a1a40;
+    --deep-purple-800: #2a2a5e;
+    --deep-purple-950: #0d0d1a;
+    --accent-purple: #7c3aed;
+    --neon-purple: #9333ea;
+  }
+
+  .font-space {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+}
